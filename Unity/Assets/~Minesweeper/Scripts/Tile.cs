@@ -25,7 +25,7 @@ namespace Minesweeper
         void Start()
         {
             // Randomly decide if this tile is a mine - using a 5% chance
-            isMine = Random.value < 0.5f;
+            isMine = Random.value < 0.05f;
         }
 
         public void Reveal(int adjacentMines, int mineState = 0)

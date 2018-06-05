@@ -93,6 +93,7 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TmxObject.cs" />
+    <Compile Include="Assets\~Assessments\Assessments1\Scripts\Detection.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\AsteroidSpawner.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Movement.cs" />
     <Compile Include="Assets\~Asteroids\Scripts\Shooting.cs" />

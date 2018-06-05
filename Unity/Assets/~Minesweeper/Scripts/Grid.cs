@@ -77,7 +77,7 @@ namespace Minesweeper
                     int desiredX = tile.x + x;
                     int desiredY = tile.y + y;
                     // Check if the desired x & y is outside bounds
-                    if(desiredX < 0 || desiredX >= width ||
+                    if (desiredX < 0 || desiredX >= width ||
                        desiredY < 0 || desiredY >= height)
                     {
                         // Continue to next element in loop
@@ -199,7 +199,7 @@ namespace Minesweeper
         {
             int adjacentMines = GetAdjacentMineCount(selected);
             selected.Reveal(adjacentMines);
-            
+
             // Is the selected tile a mine?
             if (selected.isMine)
             {
@@ -216,7 +216,7 @@ namespace Minesweeper
                 FFuncover(x, y, new bool[width, height]);
             }
             // Are there no more empty tiles in the game at this point?
-            if(NoMoreEmptyTiles())
+            if (NoMoreEmptyTiles())
             {
                 // Uncover all mines - with the win state '1'
                 UncoverMines(1);

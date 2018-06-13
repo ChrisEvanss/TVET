@@ -22,13 +22,13 @@ public class Player : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody>();
     }
-    
+
     // Update is called once per frame
     void Update()
     {
         // 'CALL' Move() and Jump()
         Move();
-        Jump();        
+        Jump();
     }
 
     void Move()
@@ -39,19 +39,19 @@ public class Player : MonoBehaviour
             rigid.AddForce(Vector3.forward * speed);
         }
 
-        // Constantly checks for input
+        // Check if the 'S' key is pressed
         if (Input.GetKey(KeyCode.S))
         {
             rigid.AddForce(Vector3.back * speed);
         }
 
-        // Constantly checks for input
+        // Check if the 'A' key is pressed
         if (Input.GetKey(KeyCode.A))
         {
             rigid.AddForce(Vector3.left * speed);
         }
 
-        // Constantly checks for input
+        // Check if the 'D' key is pressed
         if (Input.GetKey(KeyCode.D))
         {
             rigid.AddForce(Vector3.right * speed);
@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
     }
     void Jump()
     {
-        // Checks if the key was pressed ONCE
+        // Checks if the "space" key was pressed ONCE
         if (Input.GetKeyDown(KeyCode.Space))
         {
             rigid.AddForce(Vector3.up * jumpHeight, ForceMode.Impulse);

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
 
     // This is a reference to the Rigidbody component called "rigid"

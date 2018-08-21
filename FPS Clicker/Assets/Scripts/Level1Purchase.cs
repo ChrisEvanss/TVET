@@ -19,6 +19,6 @@ public class Level1Purchase : MonoBehaviour
 
     private void OnMouseDown()
     {
-        GameManagement.instance.GivePurchase();
+        GameManagement.instance.GivePurchase1();
     }
 }

@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 46208171}
   - component: {fileID: 46208170}
   m_Layer: 5
-  m_Name: Level1Amount
+  m_Name: Level1Cost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!222 &46208171
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -290,7 +290,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 370144954}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fadd55157f50c0141a23f923e056ad5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 8701f19e863eb1e45b3a4457507a5650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &370144957
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 443420042}
   - component: {fileID: 443420043}
   m_Layer: 5
-  m_Name: Level3Cost
+  m_Name: Level3Amount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -421,7 +421,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,7 +774,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 802718212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fadd55157f50c0141a23f923e056ad5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f0433d3c24ea7744a926febd19ec87b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &802718215
@@ -842,7 +842,7 @@ GameObject:
   - component: {fileID: 848456227}
   - component: {fileID: 848456226}
   m_Layer: 5
-  m_Name: Level5Amount
+  m_Name: Level5Cost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -898,7 +898,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!222 &848456227
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 1198831543}
   - component: {fileID: 1198831544}
   m_Layer: 5
-  m_Name: Level2Cost
+  m_Name: Level2Amount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1130,7 +1130,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!1 &1240577082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,7 +1142,7 @@ GameObject:
   - component: {fileID: 1240577085}
   - component: {fileID: 1240577084}
   m_Layer: 5
-  m_Name: Level2Amount
+  m_Name: Level2Cost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1198,7 +1198,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!222 &1240577085
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1217,7 +1217,7 @@ GameObject:
   - component: {fileID: 1298020847}
   - component: {fileID: 1298020846}
   m_Layer: 5
-  m_Name: Level3Amount
+  m_Name: Level3Cost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1273,7 +1273,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!222 &1298020847
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1321,7 +1321,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1410181747}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fadd55157f50c0141a23f923e056ad5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3849c3edda6dc00458e56eb01b6c278f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &1410181750
@@ -1389,7 +1389,7 @@ GameObject:
   - component: {fileID: 1492022401}
   - component: {fileID: 1492022400}
   m_Layer: 5
-  m_Name: Level4Amount
+  m_Name: Level4Cost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1445,7 +1445,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!222 &1492022401
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1603,7 +1603,7 @@ GameObject:
   - component: {fileID: 1654253987}
   - component: {fileID: 1654253986}
   m_Layer: 5
-  m_Name: Level5Cost
+  m_Name: Level5Amount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1641,7 +1641,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!222 &1654253987
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1678,7 +1678,7 @@ GameObject:
   - component: {fileID: 1736454596}
   - component: {fileID: 1736454597}
   m_Layer: 5
-  m_Name: Level4Cost
+  m_Name: Level4Amount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1741,7 +1741,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!1 &1787664923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,7 +1753,7 @@ GameObject:
   - component: {fileID: 1787664925}
   - component: {fileID: 1787664926}
   m_Layer: 5
-  m_Name: Level1Cost
+  m_Name: Level1Amount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1816,7 +1816,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!1 &1814039030
 GameObject:
   m_ObjectHideFlags: 0
@@ -2242,7 +2242,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2056011684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fadd55157f50c0141a23f923e056ad5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d034bbc0dde2f5439bca96f6438cf0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &2056011687

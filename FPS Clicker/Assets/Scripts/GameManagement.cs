@@ -63,11 +63,11 @@ public class GameManagement : MonoBehaviour
         level4Indicator.text = "" + level4Current;
         level5Indicator.text = "" + level5Current;
 
-        level1costIndicator.text = "" + level1Cost;
-        level2costIndicator.text = "" + level2Cost;
-        level3costIndicator.text = "" + level3Cost;
-        level4costIndicator.text = "" + level4Cost;
-        level5costIndicator.text = "" + level5Cost;
+        level1costIndicator.text = "" + (int)level1Cost;
+        level2costIndicator.text = "" + (int)level2Cost;
+        level3costIndicator.text = "" + (int)level3Cost;
+        level4costIndicator.text = "" + (int)level4Cost;
+        level5costIndicator.text = "" + (int)level5Cost;
     }
 
     // Function to givemoney on click
@@ -76,7 +76,7 @@ public class GameManagement : MonoBehaviour
         moneyCurrent += 1;
     }
 
-    // Function to givepurchase on click
+    // Functiosn to give purchase on click
     public void GivePurchase1()
     {
         if (moneyCurrent > level1Cost)
@@ -85,25 +85,41 @@ public class GameManagement : MonoBehaviour
             moneyCurrent -= level1Cost;
             level1Cost = level1Cost * 1.15f;
         }
-//        if (moneyCurrent > 100 * level2Current)
-//        {
-//            level2Current += 1;
-//            moneyCurrent -= 100 * level2Current;
-//        }
-//        if (moneyCurrent > 1000 * level3Current)
-//        {
-//            level3Current += 1;
-//            moneyCurrent -= 1000 * level3Current;
-//        }
-//        if (moneyCurrent > 10000 * level4Current)
-//        {
-//            level4Current += 1;
-//            moneyCurrent -= 10000 * level4Current;
-//        }
-//        if (moneyCurrent > 100000 * level5Current)
-//        {
-//            level5Current += 1;
-//            moneyCurrent -= 100000 * level5Current;
-//        }
+    }
+
+    public void GivePurchase2()
+    {
+        if (moneyCurrent > 100 * level2Current)
+        {
+            level2Current += 1;
+            moneyCurrent -= 100 * level2Current;
+        }
+    }
+
+    public void GivePurchase3()
+    {
+        if (moneyCurrent > 1000 * level3Current)
+        {
+            level3Current += 1;
+            moneyCurrent -= 1000 * level3Current;
+        }
+    }
+
+    public void GivePurchase4()
+    {
+        if (moneyCurrent > 10000 * level4Current)
+        {
+            level4Current += 1;
+            moneyCurrent -= 10000 * level4Current;
+        }
+    }
+
+    public void GivePurchase5()
+    {
+        if (moneyCurrent > 100000 * level5Current)
+        {
+            level5Current += 1;
+            moneyCurrent -= 100000 * level5Current;
+        }
     }
 }

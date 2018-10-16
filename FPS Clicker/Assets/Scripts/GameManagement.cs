@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManagement : MonoBehaviour
@@ -10,18 +8,19 @@ public class GameManagement : MonoBehaviour
     // Amounts for text UI
     public Text moneyIndicator;
 
+    [Header("Amount Indicators")]
     public Text level1Indicator;
     public Text level2Indicator;
     public Text level3Indicator;
     public Text level4Indicator;
     public Text level5Indicator;
 
+    [Header("Cost Indicators")]
     public Text level1costIndicator;
     public Text level2costIndicator;
     public Text level3costIndicator;
     public Text level4costIndicator;
     public Text level5costIndicator;
-
 
     // Storage for how much of each
     public float moneyCurrent;
@@ -37,6 +36,8 @@ public class GameManagement : MonoBehaviour
     public float level3Cost;
     public float level4Cost;
     public float level5Cost;
+
+    public float Upgrade1;
 
     public Sprite level1Icon;
 
@@ -54,7 +55,12 @@ public class GameManagement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moneyCurrent += 0.0165f * level1Current;
+        moneyCurrent += 0.0165f//*
+           //(level1Current * Upgrade1) +
+           //(level2Current * Upgrade2) +
+           //(level3Current * Upgrade3) +
+           //(level4Current * Upgrade4) +
+           //(level5Current * Upgrade5);
 
         moneyIndicator.text = "" + (int)moneyCurrent;
         level1Indicator.text = "" + level1Current;
@@ -76,7 +82,12 @@ public class GameManagement : MonoBehaviour
         moneyCurrent += 1;
     }
 
-    // Functiosn to give purchase on click
+    public void Upgrade1()
+    {
+        Upgrade1 +;
+    }
+
+    // Function to give purchase on click
     public void GivePurchase1()
     {
         if (moneyCurrent > level1Cost)
